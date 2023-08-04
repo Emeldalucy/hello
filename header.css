@@ -1,0 +1,66 @@
+.header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: buttom width 1px;
+    border-bottom-style: solid;
+    border-bottom-color:rgba(230, 225, 225, 0.993) ;
+}
+
+.left-hand-side{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.left-hand-side-ul a:hover{
+    color: white;
+    border-bottom: 3px solid purple;
+    width: 20px;
+}
+
+
+.right-hand-side{
+    display: flex;
+    align-items: center;
+}
+#avatar{
+    height:43px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#Collection{
+    margin-left: 55px;
+    border-style: none;
+    background-color: white;
+    color: grey;
+}
+#Men{
+    margin-left: 35px;
+    border-style: none;
+    background-color: white;
+    color: grey;
+}
+#Women{
+    margin-left: 35px;
+    border-style: none;
+    background-color: white;
+    color: grey;
+}
+#About{
+    margin-left: 35px;
+    border-style: none;
+    background-color: white;
+    color: grey;
+}
+#Contact{
+    margin-left: 35px;
+    border-style: none;
+    background-color: white;
+    color: grey;
+}
